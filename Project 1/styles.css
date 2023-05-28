@@ -1,0 +1,104 @@
+.header,
+form {
+  text-align: center;
+}
+.header{color:aliceblue;}
+span{
+    font-weight:bold;
+    font-size:20px;
+    padding-right: 10px;
+}
+h2{
+    color:azure;
+}
+
+.main{
+  margin-bottom:3px;
+}
+
+body{
+    background:linear-gradient(90deg,brown,burlywood);
+}
+
+label{
+    background-color: rgb(101, 201, 204);
+    border-radius: 5px;
+}
+
+form {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  background:linear-gradient(45deg,rgb(31, 105, 134),rgb(96, 136, 141));
+  justify-items: center;
+  align-items:center;
+  width:600px;
+  margin:0 auto;
+}
+
+.main-information {
+  margin:10px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-1{
+    display: flex;
+    gap:10px;
+
+}
+
+.checkbox-1{
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+    align-items: baseline;
+    padding-bottom:10px;
+}
+
+.checkbox{
+    padding-right:10px;
+}
+
+.radio{
+    padding-right:10px;
+}
+
+.select select{
+    margin-right:32px
+}
+
+.name,
+.email,
+.number,
+.select {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.name label,
+.email label,
+.number label,
+.select label {
+  margin-right: 10px;
+}
+
+.name input,
+.email input,
+.number input,
+.select select{
+    width:200px;
+    height:20px;
+}
+
+.number label{
+    padding-right:13px;
+}
+
+input ,textarea ,select{
+    border:1px solid rgb(185, 176, 176);
+    border-radius: 10px;
+}
